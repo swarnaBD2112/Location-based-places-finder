@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="tasu.myapplication.InfoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name"
+        android:gravity="center"
+        android:height="50dp"
+        android:background="#708090"
+        android:id="@+id/textViewNameT"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:gravity="center"
+        android:height="100dp"
+        android:background="#FFFFFF"
+        android:id="@+id/textViewName"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewNameT"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vicinity"
+        android:gravity="center"
+        android:height="50dp"
+        android:background="#708090"
+        android:id="@+id/textViewVicinityT"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewName"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:gravity="center"
+        android:height="100dp"
+        android:background="#FFFFFF"
+        android:id="@+id/textViewVicinity"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewVicinityT"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Position"
+        android:gravity="center"
+        android:height="50dp"
+        android:background="#708090"
+        android:id="@+id/textViewPositionT"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewVicinity"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:gravity="center"
+        android:height="100dp"
+        android:background="#FFFFFF"
+        android:id="@+id/textViewPosition"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewPositionT"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tv_street"
+        android:textStyle="bold"
+        android:height="60dp"
+        android:background="#708090"
+        android:gravity="center"
+        android:textColor="#483D8B"
+        android:id="@+id/textViewStreet"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor"
+        android:id="@+id/checkBoxDoctor"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:id="@+id/checkBoxHospital"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurant"
+        android:id="@+id/checkBoxRestaurant"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Museum"
+        android:id="@+id/checkBoxMuseum"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stadium"
+        android:id="@+id/checkBoxStadium"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Library"
+        android:id="@+id/checkBoxLibrary"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zoo"
+        android:id="@+id/checkBoxZoo"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Enter Range"
+        android:id="@+id/textView"
+        android:layout_weight="0.09" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editRange"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/btnOk"
+        android:layout_weight="0.08"
+
+        android:onClick="btnOk" />
+
+</LinearLayout>

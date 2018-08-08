@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">my Map</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_info">Hello Info</string>
+    <string name="menu_settings">Settings</string>
+    <string name="str_btn_find">Refresh</string>
+
+    <string name="tv_street"><u>Street View</u></string>
+
+    <string-array name="place_type">
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>restaurant</item>
+        <item>museum</item>
+        <item>stadium</item>
+        <item>library</item>
+        <item>zoo</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Restaurant</item>
+        <item>Museum</item>
+        <item>Stadium</item>
+        <item>Library</item>
+        <item>Zoo</item>
+    </string-array>
+    <string name="title_activity_drawer">Customize Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_info">Detailed Information</string>
+    <string name="title_activity_stree">Street View</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>
